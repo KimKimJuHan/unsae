@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>오늘의 운세</title>
+  <link rel="stylesheet" href="unsae.css">
+</head>
+<body>
+  <div class="container">
+
+    <h2>오늘의 운세</h2>
+
+    <input type="text" id="nameInput" placeholder="이름">
+
+    <select id="categorySelect">
+      <option value="전체">전체운</option>
+      <option value="애정">애정운</option>
+      <option value="공부">학업운</option>
+      <option value="금전">금전운</option>
+    </select>
+
+    <button onclick="getFortune()">뽑기</button>
+
+    <div id="resultList"></div>
+
+  </div>
+
+  <script src="unsae.js"></script>
+</body>
+</html>
